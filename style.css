@@ -1,0 +1,57 @@
+.game-box {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    float: left;
+    vertical-align: middle;
+}
+
+.all-container {
+    height: 400px;
+    width: 500px;
+}
+
+.game-box i {
+    font-size: 600%;
+}
+
+.game-row {
+    float: left;
+    display: block;
+}
+
+.main-container {
+    width: 400px;
+    margin-top: 50px;
+    display: block;
+}
+
+.player-info {
+    
+    font-size: 150%;
+    display: block;
+}
+
+.titles {
+    padding-top: 50px;
+}
+
+.active {
+    color: red;
+}
+
+.winner { 
+    color: blue;
+}
+
+.winner:after{ 
+    content: "Wins"
+}
+
+.player-info input {
+    color: red;
+    background-color: green;
+    border-radius: 20%;
+    width: 90px;
+    height: 30px;
+}
